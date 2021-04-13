@@ -6,18 +6,25 @@
 
 Install the package `rsqliteadmin` from CRAN and play around with all the features. Create a database, add a table and import some data. Edit, search and export it.
 
-
+Run the app.
 
 ### Code
 
 ```
-
+rsqliteadmin::run_rsqliteadmin()
 ```
-### Plot
+### Screenshots
 
-Plot created is shown below:
+Following are the screenshots of databas and tables I have created in RSQLiteAdmin
 
-![](Easy_Test/output.png)
+![](Easy_Test/s1.png)
+![](Easy_Test/s2.png)
+![](Easy_Test/s3.png)
+![](Easy_Test/s4.png)
+
+We can import the database by setting the database directory to the folder containing the sqlite db. Following are screenshots of a digital media store DB I downloaded from https://www.sqlitetutorial.net/sqlite-sample-database/ and have imported in RSqliteAdmin.
+![](Easy_Test/s5.png)
+![](Easy_Test/s6.png)
 
 ## 2. Medium Test 1
 
