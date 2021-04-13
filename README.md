@@ -24,8 +24,7 @@ Plot created is shown below:
 ### Problem Statement
 
 Plot a time-series line chart on a dataset of your choice with different variables in a single chart. Customize it to make it clear and insightful.
-\
-\
+<br />
 In this test I have used the US `economics` time series dataset. Initially I have loaded the ggplot2 and set the minimalistic theme
 ### Code
 
