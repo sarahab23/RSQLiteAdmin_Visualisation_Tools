@@ -104,7 +104,6 @@ Plot created by the above code is shown below:
 ```
 ### Output
 
-I have attached the output screenshots to show the implementation of functions of the packages `calc` and `vectorfuncts`.
 
 ![]()
 
