@@ -24,8 +24,8 @@ Plot created is shown below:
 ### Problem Statement
 
 Plot a time-series line chart on a dataset of your choice with different variables in a single chart. Customize it to make it clear and insightful.
-
-
+\
+\
 In this test I have used the US `economics` time series dataset. Initially I have loaded the ggplot2 and set the minimalistic theme
 ### Code
 
@@ -75,13 +75,26 @@ x dplyr::lag()    masks stats::lag()
 ```
 Visualise the data showing personal savings rate and median duration of unemployment throughout the years using `geom_line()` from `ggplot2` package and customize them using `scale_color_manual()` and `ggtitle()` to further add data labels and titles to the plot respectively.
 
+```
+> # Data Visualization
+> ggplot(df, aes(x = date, y = value)) + 
++     geom_line(aes(color = variables)) + 
++     scale_color_manual(values = c("yellow", "green")) + ggtitle("Yearly plot showing personal savings rate and median duration of unemployment") 
+```
+
 ### Plot
 
 Plot created by the above code is shown below:
 
 ![](Medium_Test_1/output.png)
 
-## 3. Hard Test
+## 3. Medium Test 2
+### Problem Statement
+
+
+
+### Code
+## 4. Hard Test
 
 ### Problem Statement
 
